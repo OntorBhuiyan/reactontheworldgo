@@ -1,0 +1,32 @@
+.country {
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid salmon;
+}
+
+.country-visited {
+    background: aquamarine;
+}
+
+.country img {
+    width: 100%;
+    height: 220px;
+    border: 1px solid black;
+}
+
+button {
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.clicked-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.visited-flags img {
+    width: 120px;
+    margin: 10px;
+}
